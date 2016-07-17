@@ -2,6 +2,11 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/processing-app"/>
+	<classpathentry kind="lib" path="O:/OneDrive/Workspace/libs/core.jar"/>
+	<classpathentry kind="lib" path="O:/OneDrive/Workspace/libs/gluegen-rt.jar"/>
+	<classpathentry kind="lib" path="O:/OneDrive/Workspace/libs/gluegen-rt-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="O:/OneDrive/Workspace/libs/jogl-all.jar"/>
+	<classpathentry kind="lib" path="O:/OneDrive/Workspace/libs/jogl-all-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="O:/OneDrive/Workspace/libs/pde.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

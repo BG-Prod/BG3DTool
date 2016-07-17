@@ -112,7 +112,7 @@ ${line}
 		<antcall target="generate.distribution" />
 		<antcall target="generate.install.tool" />
 		<antcall target="generate.web" />
-	  	<antcall target="generate.zip" />	
+	  	<antcall target="generate.zip" />
 	  	<delete dir="${project.tmp}"/>
 	</target>
 	
@@ -152,6 +152,9 @@ ${line}
 	
 	<target name="generate.jar">
 		<jar jarfile="${project.tmp}/${project.name}/${folder}/${project.jar.name}" basedir="${project.bin}"/>
+		<copy todir="${project.tmp}/${project.name}/${folder}">
+			<fileset dir="${classpath.local.location}" includes="${classpath.local.include}" />
+		</copy>
 	</target>
 	
 	
